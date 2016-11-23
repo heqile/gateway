@@ -17,7 +17,7 @@ HEADERS += include/gateway.hpp
 
 LIBS += "/usr/lib/libcgicc.so"
 
-INCLUDEPATH += -L"/usr/include/cigcc"
+INCLUDEPATH += "/usr/include/cgicc"
 
 unix {
     target.path = /appli/lib
