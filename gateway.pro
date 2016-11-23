@@ -11,7 +11,7 @@ TEMPLATE = lib
 
 DEFINES += GATEWAY_LIBRARY
 
-SOURCES += gateway.cpp
+SOURCES += src/gateway.cpp
 
 HEADERS += gateway_global.h \
     include/gateway.hpp
