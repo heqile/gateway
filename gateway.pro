@@ -13,8 +13,7 @@ DEFINES += GATEWAY_LIBRARY
 
 SOURCES += src/gateway.cpp
 
-HEADERS += gateway_global.h \
-    include/gateway.hpp
+HEADERS += include/gateway.hpp
 
 LIBS += "/usr/lib/libcgicc.so"
 
